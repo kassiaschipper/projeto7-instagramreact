@@ -1,13 +1,14 @@
-export default function Stories(props) {
+import Story from "./Story";
+export default function Stories (){
+    return(
+        <div class="stories">
+            <Story />
 
-    return (
-        <div className="story">
-            <div className="imagem">
-                <img src={props.url} />
+            <div class="setinha">
+            <ion-icon name="chevron-forward-circle"></ion-icon>
             </div>
-            <div className="usuario">
-                {props.pagina}
-            </div>
-        </div>
+      </div>
     );
 }
+
+
