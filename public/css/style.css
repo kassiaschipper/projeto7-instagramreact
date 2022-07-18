@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
   }
-  
+  strong {
+  font-weight: bold;  
+  }
+
   body {
     background-color: #FAFAFA;
     margin: 54px 0 0;
@@ -309,8 +312,21 @@
   .logo-mobile, .instagram-mobile {
     display: none !important;
   }
+  .preenchido{
+    color: red !important; 
+    visibility: visible;
+  }
+  
+  .sem-like{
+    visibility: visible;
+  }
   
   @media (max-width: 935px) {
+
+    strong {
+      font-weight: bold;  
+      }
+
     .sidebar {
       display: none;
     }
@@ -324,8 +340,14 @@
       width: 100%;
     }
   }
+ 
   
   @media (max-width: 614px) {
+    
+    strong {
+      font-weight: bold;  
+      }
+
     .corpo {
       margin-top: 0;
     }
